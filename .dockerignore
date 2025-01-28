@@ -1,0 +1,41 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Лог-файлы
+*.log
+
+# Временные файлы
+*.tmp
+*.swp
+*.bak
+
+# Папки и файлы, связанные с IDE или редакторами
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Папки с зависимостями, которые будут установлены позже
+node_modules/
+vendor/
+
+# Папки с результатами сборки
+build/
+dist/
+out/
+
+# Файлы конфигурации среды
+.env
+*.env
+
+# Другие временные или ненужные файлы
+*.db
+*.sqlite
+
+__pycache__/
+*.pyc
+*.pyo
+
+media/*
+static/*
